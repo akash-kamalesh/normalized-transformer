@@ -62,6 +62,6 @@ The model supports inference for text generation
 ## ⚡ Quickstart
 Clone the repo and install dependencies:
 ```bash
-git clone https://github.com/yourusername/trae-ai-ntransformer.git
-cd trae-ai-ntransformer
+git clone https://github.com/tanisthahota/normalized-transformer.git
+cd normalized-transformer
 pip install -r requirements.txt
