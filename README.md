@@ -5,6 +5,10 @@ A PyTorch implementation of a normalized transformer architecture for language m
 ## 🚀 Overview
 This project implements a variant of the transformer architecture that uses normalization techniques to improve training stability and performance. This implementation focuses on normalization strategies that enhance model convergence and performance.
 
+- Designed and architected a fully normalized encoder-decoder architecture constraining all embeddings and attention matrices to unit hypersphere, eliminating weight decay and reducing parameters by 2.5%.
+- Incorporated adaptive eigen learning rates across components, enabling dynamic balancing of self-attention, cross-attention, and feed-forward contributions.
+- Achieved 11.31% average improvement on GLUE tasks with notable 11.5% gain on WiC and 3.79% on BoolQ, plus 7% lower validation loss under 2000 iterations
+
 ---
 
 ## ✨ Key Features
