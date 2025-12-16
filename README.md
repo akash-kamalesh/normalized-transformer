@@ -1,5 +1,4 @@
-# TnT - The Normalized Transformer: Eigen-Learning Rates Meet Stepwise
-Normalization
+# TnT - The Normalized Transformer: Eigen-Learning Rates Meet Stepwise Normalization
 A PyTorch implementation of a normalized transformer architecture for language modeling with enhanced stability through normalization techniques.
 
 ## 🚀 Overview
